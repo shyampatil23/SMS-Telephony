@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="12dp">
+
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/et_number"
+       android:hint="Mobile Number"
+       android:textColorHint="@color/black"
+       android:textSize="14sp"
+       android:textStyle="normal"
+       android:textColor="@color/black"
+       android:inputType="number"
+       android:maxLength="10"
+       android:layout_marginTop="10dp"
+       android:fontFamily="sans-serif-condensed-medium"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/et_message"
+        android:hint="Your Message"
+        android:textColorHint="@color/black"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:inputType="text"
+       android:background="@drawable/et_bg_shape"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_send"
+        android:text="Send"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-light"/>
+
+
+
+</LinearLayout>
