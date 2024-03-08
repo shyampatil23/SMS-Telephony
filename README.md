@@ -1,2 +1,2 @@
-# Text-to-Speech-App
-Android allows you convert your text into voice. Not only you can convert it but it also allows you to speak text in variety of different languages. This method adds a mapping between a string of text and a sound file.
+#SMS Telephony
+SMS (Short Message Service), commonly referred to as "text messaging," is a service for sending short messages of up to 160 characters (224 character limit if using a 5-bit mode) to mobile devices, including cellular phones and smartphones.
